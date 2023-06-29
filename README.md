@@ -16,3 +16,12 @@
   <li>흉부외과 또는 일반외과 의사 목록 출력하기
  : ( https://school.programmers.co.kr/learn/courses/30/lessons/132203 )</li>
 </ol>
+
+
+#### 23.06.28
+
+<ol>
+  <li>백준10773번 : 제로 ( https://www.acmicpc.net/problem/10773 )</li>
+</ol>
+
+
