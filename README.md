@@ -18,10 +18,15 @@
 </ol>
 
 
-#### 23.06.28
+#### 23.06.29
 
 <ol>
   <li>백준10773번 : 제로 ( https://www.acmicpc.net/problem/10773 )</li>
 </ol>
 
+#### 23.06.30
+
+<ol>
+  <li>백준4949번 : 균형잡힌 세상( https://www.acmicpc.net/problem/4949 )</li>
+</ol>
 
