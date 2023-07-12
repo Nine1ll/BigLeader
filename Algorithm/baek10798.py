@@ -1,5 +1,3 @@
-import sys
-
 words = [list(input()) for _ in range(5)]
 max_len = 0
 for word in words:

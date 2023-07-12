@@ -1,20 +1,25 @@
-import sys
-
-str_in = list(sys.stdin.readlines())
-str_in = str_in[:len(str_in)-1]
-c_str = ['c=','c-','dz=','d-','lj','nj','s=','z=']
-str_in_c = "c=-dzljnjsz"
+croatia = list(input())
 cnt = 0
-char = ''
-print(str_in)
 
-for c in str_in:
-    if c in str_in_c:
-        char+=c
-        print(c, char)
-        if char in c_str:
-            cnt+=1
-            char=''
+for idx, c in enumerate(croatia):
+    cnt+=1
+    if c == '=':
+        if croatia[idx-1] == 'z':
+            try:
+                if croatia[idx-2] == 'd':
+                    cnt-=2
+                else:
+                    cnt-=1
+            except:
+                pass
+        else:
+            cnt-=1
+    elif c == '-':
+        cnt-=1
+    elif c == 'j':
+        if croatia[idx - 1] in 'nl':
+            cnt-=1
     else:
-        cnt+=1
+        pass
 
+print(cnt)
