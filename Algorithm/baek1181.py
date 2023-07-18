@@ -17,4 +17,3 @@ str_list.sort(key=sort_by_len)
 
 for i in range(len(str_list)):
     print(str_list[i])
-
