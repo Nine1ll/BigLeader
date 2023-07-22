@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 lst = list(map(int, input().split()))
 
-=======
 import sys
 
 number_list = list(map(int, sys.stdin.readline().split()))
@@ -13,4 +12,3 @@ elif sorted(number_list, reverse=True) == number_list:
 else:
     print('mixed')
 
->>>>>>> main

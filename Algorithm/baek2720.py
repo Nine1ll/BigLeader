@@ -1,5 +1,5 @@
 import sys
-
+# 출력 쿼터(25센트), 다임(10센트), 니켈(5센트), 페니(1센트)
 T = int(sys.stdin.readline())
 
 money = [25, 10, 5, 1]
@@ -11,5 +11,6 @@ for _ in range(T):
         ans.append(C//m)
         C = C % m
     print(*ans)
-# 출력 쿼터(25센트), 다임(10센트), 니켈(5센트), 페니(1센트)
+
+
 
