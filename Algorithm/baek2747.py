@@ -16,6 +16,7 @@
 
 import sys
 
+
 def fibonacci(k):
     if k == 0:
         return 0
@@ -32,6 +33,7 @@ def fibonacci(k):
         fib_minus_one = fib_current
 
     return fib_current
+
 
 k = int(sys.stdin.readline())
 
