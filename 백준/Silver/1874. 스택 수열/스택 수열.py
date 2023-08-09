@@ -16,13 +16,13 @@ def stack_sequence(n, sequence):
             stack.pop()
             result.append('-')
         else:
-            return ['NO'] 
+            return ['NO']
 
     return result
 
 
 n = int(sys.stdin.readline())
-sequence = [int(input()) for _ in range(n)]
+sequence = [int(sys.stdin.readline()) for _ in range(n)]
 
 result = stack_sequence(n, sequence)
 
